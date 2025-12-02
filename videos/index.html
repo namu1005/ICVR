@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta property="og:title" content="ICVR">
+        <meta property="og:site_name" content="ICVR">
+        <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
+
+        <title>기업가치실현연구소</title>
+
+        <link rel="stylesheet" href="/css/base.css">
+        <link rel="stylesheet" href="/css/reset.css">
+        <link rel="stylesheet" href="/css/typography.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link
+            rel="preconnect"
+            href="https://fonts.gstatic.com"
+            crossorigin="crossorigin">
+        <link
+            href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap"
+            rel="stylesheet">
+        <!-- swiper slide -->
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css">
+
+        <link rel="stylesheet" href="/css/style.css">
+    </head>
+
+    <body>
+        <div class="quick_wrap">
+            <div class="quick">
+                <a href="javascript:void(0)" class="goto_top">
+                    <img src="/images/arrow_top.svg" alt="맨 위로">
+                </a>
+            </div>
+        </div>
+
+        <header>
+            <h1 class="ir_su">기업가치실현연구소</h1>
+            <div class="nav_bg"></div>
+            <div class="nav_bg_mobile">
+                <img class="close" src="/images/mobile_close.svg" alt="모바일 메뉴 닫기">
+                <ul class="d-flex flex-direction-column">
+                    <li class="about">
+                        <a href="about.html">About</a>
+                    </li>
+                    <li class="Service Detail">
+                        <a href="technology.html">Service Detail</a>
+                    </li>
+                    <li class="Contact">
+                        <a onclick="openFormPopup()">Contact</a>
+                    </li>
+                </ul>
+                <div class="info">
+                    <h2>기업가치실현연구소</h2>
+                    <dl>
+                        <dt>대표</dt>
+                        <dd>이시진</dd>
+                        <dt>사업자등록번호</dt>
+                        <dd>658-11-02889</dd>
+                        <dt>전화</dt>
+                        <dd>02-585-9333</dd>
+                    </dl>
+                    <dl>
+                        <dt>주소</dt>
+                        <dd>서울특별시 서초구 사임당로8길 13, 4층 402-J982호(서초동)</dd>
+                    </dl>
+                </div>
+            </div>
+            <nav class="d-flex">
+                <a href="index.html">
+                    <img class="header_logo" src="/images/logo_w.svg" alt="로고">
+                    <img class="header_logo_m" src="/images/logo_w_mobile.svg" alt="모바일 로고">
+                </a>
+                <ul class="menu d-flex align-items-center">
+                    <li>
+                        <a class="nav_1dep" href="about.html">About</a>
+                    </li>
+                    <li>
+                        <a class="nav_1dep" href="technology.html">Service Detail</a>
+                    </li>
+                    <li>
+                        <a class="nav_1dep" onclick="openFormPopup()">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="mobile_menu">
+                <img class="mobile_burger" src="/images/mobile_burger.svg" alt="모바일 버거">
+            </div>
+        </header>
+        <!-- s:main section -->
+        <section class="main">
+            <div class="visual_line">
+                <i></i>
+            </div>
+            <video
+                class="bg-video"
+                autoplay="autoplay"
+                loop="loop"
+                muted="muted"
+                playsinline="playsinline">
+                <source src="/videos/main_b.mp4" type="video/mp4">
+            </video>
+            <div class="inner">
+                <div class="copytxt fade-up">
+                    <h1 class="fade-in">
+                        <b>비상장&#183;중소&#183;벤처기업 지분</b>을<br>
+                        <b>3% 이상 직접 매입</b>합니다.</h1>
+                    <p class="sub_txt fade-in">
+                        기업가치실현연구소는 전문 변호사 자문을 기반으로<br>
+                        안전하고 신뢰할 수 있는 비상장주식 매입 서비스를 제공합니다.
+                    </p>
+                </div>
+            </div>
+            <div class="main_scroll_icon">
+                <span class="scroll_circle_box"></span>
+            </div>
+        </section>
+        <!-- e:main section -->
+        <!-- s:AIcamera section -->
+        <section class="second_section">
+            <div class="txt_wrap">
+                <h1>
+                    <span>비상장주식</span><br>
+                    <b>
+                        <span>매입 전문기관</span></b>
+                </h1>
+                <p>
+                    기업가치실현연구소는 일반 투자자에게 어려운<br>
+                    비상장&#183;중소&#183;벤처기업 지분 거래를 대신하여,<br>
+                    투자자의 입장에서 3% 이상 직접 매입을 진행합니다.
+                </p>
+            </div>
+            <div class="reveal_box_wrap">
+                <!-- s:img_box -->
+                <video
+                    class="inner_video"
+                    id="innerVideo"
+                    autoplay="autoplay"
+                    loop="loop"
+                    muted="muted"
+                    playsinline="playsinline">
+                    <source src="/videos/second_section.mp4" type="video/mp4">
+                </video>
+                <!-- e:img_box -->
+            </div>
+        </section>
+        <!-- e:AIcamera section -->
+        <!-- s:technology section -->
+        <section class="technology">
+            <div class="inc02_wrap">
+                <!-- 기술 리스트 -->
+                <ul class="tech_list">
+                    <li class="tech_item">
+                        <div class="gsap_container">
+                            <div class="txt_cont">
+                                <span class="num">01</span>
+                                <div class="txt">
+                                    <h3 class="pl">비상장회사 주식 매도 희망자</h3>
+                                    <p class="pl">비상장회사 주식을 처분하고 싶지만<br>
+                                        거래처나 매수자를 찾기 어려운 분들을 위해<br>
+                                        합리적인 조건으로 지분 매입을 진행합니다.</p>
+                                </div>
+                            </div>
+                            <div class="img_w one">
+                                <div class="img_bg">
+                                    <img src="/images/img_target01.jpg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="tech_item">
+                        <div class="gsap_container">
+                            <div class="txt_cont">
+                                <span class="num">02</span>
+                                <div class="txt">
+                                    <h3 class="pl">경영권 분쟁 상황의 지분 정리</h3>
+                                    <p class="pl">공동창업자 간의 갈등이나<br>
+                                        경영권 분쟁 등으로 회사에서의 정리를 원하는 경우<br>
+                                        안정적으로 지분 매각을 할 수 있도록 매입 절차를 제공합니다.</p>
+                                </div>
+                            </div>
+                            <div class="img_w one">
+                                <div class="img_bg">
+                                    <img src="/images/img_target02.jpg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="tech_item">
+                        <div class="gsap_container">
+                            <div class="txt_cont">
+                                <span class="num">03</span>
+                                <div class="txt">
+                                    <h3 class="pl">명의신탁 주식의 정리</h3>
+                                    <p class="pl">명의신탁 상태의 비상장주식을 매각하거나 정리하고자 하는 경우<br>
+                                        전문 변호사 자문을 기반으로 안정적으로 매입을 진행합니다.</p>
+                                </div>
+                            </div>
+                            <div class="img_w one">
+                                <div class="img_bg">
+                                    <img src="/images/img_target03.jpg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="mobile"></div>
+        </section>
+        <!-- e:technology section -->
+        <!-- s:mobile_technology section -->
+        <section class="mobile_technology swiper-container">
+            <div class="swiper-wrapper">
+                <div class="m_tech_w swiper-slide">
+                    <div class="d-flex contents_w">
+                        <img src="/images/img_target01.jpg" alt="추천 컨텐츠01">
+                        <div class="txt_cont">
+                            <h6>비상장회사 주식 매도 희망자</h6>
+                            <p>비상장회사 주식을 처분하고 싶지만<br>
+                                거래처나 매수자를 찾기 어려운 분들을 위해<br>
+                                합리적인 조건으로 지분 매입을 진행합니다.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="m_tech_w swiper-slide">
+                    <div class="d-flex contents_w">
+                        <img src="/images/img_target02.jpg" alt="추천 컨텐츠02">
+                        <div class="txt_cont">
+                            <h6>경영권 분쟁 상황의 지분 정리</h6>
+                            <p>공동창업자 간의 갈등이나<br>
+                                경영권 분쟁 등으로 회사에서의 정리를 원하는 경우<br>
+                                안정적으로 지분 매각을 할 수 있도록 매입 절차를 제공합니다.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="m_tech_w swiper-slide">
+                    <div class="d-flex contents_w">
+                        <img src="/images/img_target03.jpg" alt="추천 컨텐츠03">
+                        <div class="txt_cont">
+                            <h6>명의신탁 주식의 정리</h6>
+                            <p>명의신탁 상태의 비상장주식을 매각하거나 정리하고자 하는 경우<br>
+                                전문 변호사 자문을 기반으로 안정적으로 매입을 진행합니다.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <ul class="navigation">
+                <li class="app-button prev">
+                    <img src="/images/ico_news_prev.svg" alt="이전">
+                </li>
+                <li class="app-button next">
+                    <img src="/images/ico_news_next.svg" alt="다음">
+                </li>
+            </ul>
+        </section>
+        <!-- e:mobile_technology section -->
+        <!-- s:partners section -->
+        <section class="partners">
+            <div class="inner">
+                <div class="txt_wrap">
+                    <h1 class="tit">전문 변호사 자문 기반의 안전한 지분 거래</h1>
+                    <p>기업가치실현연구소는 변호사 자문을 중심으로<br>
+                        법적 안정성을 갖춘 매입 절차를 진행합니다.<br>
+                        복잡한 비상장주식 거래를 투명하고 안전하게 도와드립니다.</p>
+                </div>
+                <div class="info_cont">
+                    <div class="info_wrap d-flex justify-content-between">
+                        <div>
+                            <div class="img_wrap">
+                                <img src="/images/img_info01.jpg" alt="안내 이미지 01">
+                            </div>
+                            <p>법률 자문</p>
+                        </div>
+                        <div>
+                            <div class="img_wrap">
+                                <img src="/images/img_info02.jpg" alt="안내 이미지 01">
+                            </div>
+                            <p>안전한 절차</p>
+                        </div>
+                        <div>
+                            <div class="img_wrap">
+                                <img src="/images/img_info03.jpg" alt="안내 이미지 01">
+                            </div>
+                            <p>신뢰 기반 매입</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- e:partners section -->
+        <!-- s:application section -->
+        <section class="application">
+            <div class="inner">
+                <div class="app_section">
+                    <div class="txt">
+                        <h1 class="tit">이런 분들께<br>추천합니다.</h1>
+                    </div>
+                </div>
+                <!-- 추천 리스트 -->
+                <div class="app_section">
+                    <ul class="application_list">
+                        <li class="application_item fade-left">
+                            <div>
+                                <img src="/images/img_recommend01.jpg" alt="추천 이미지 01">
+                                <p>비상장회사 주식을 팔고 싶은 주주</p>
+                            </div>
+                        </li>
+                        <li class="application_item fade-left">
+                            <div>
+                                <img src="/images/img_recommend02.jpg" alt="추천 이미지 02">
+                                <p>공동창업자 간 갈등 등으로 지분 정리가 필요한 경영진</p>
+                            </div>
+                        </li>
+                        <li class="application_item fade-left">
+                            <div>
+                                <img src="/images/img_recommend03.jpg" alt="추천 이미지 03">
+                                <p>비상장 주식을 명의신탁으로 보유하고 있어 정리해야 하는 분</p>
+                            </div>
+                        </li>
+                        <li class="application_item fade-left">
+                            <div>
+                                <img src="/images/img_recommend04.jpg" alt="추천 이미지 04">
+                                <p>비상장&#183;중소&#183;벤처기업 지분을 3% 이상 매각하고 싶은 주주</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <!-- e:application section -->
+        <!-- s:mobile_application section -->
+        <section class="mobile_application swiper-container">
+            <div class="title">
+                <h1 class="tit">이런 분들께 추천합니다.</h1>
+            </div>
+            <!-- s:swiper-wrapper -->
+            <div class="swiper-wrapper">
+                <div class="m_application_w swiper-slide">
+                    <img src="/images/img_recommend01.jpg" alt="추천 이미지 01">
+                    <div class="txt_cont">
+                        <p>비상장회사 주식을 팔고 싶은 주주</p>
+                    </div>
+                </div>
+                <div class="m_application_w swiper-slide">
+                    <img src="/images/img_recommend02.jpg" alt="추천 이미지 03">
+                    <div class="txt_cont">
+                        <p>공동창업자 간 갈등 등으로 지분 정리가 필요한 경영진</p>
+                    </div>
+                </div>
+                <div class="m_application_w swiper-slide">
+                    <img src="/images/img_recommend03.jpg" alt="추천 이미지 03">
+                    <div class="txt_cont">
+                        <p>비상장 주식을 명의신탁으로 보유하고 있어 정리해야 하는 분</p>
+                    </div>
+                </div>
+                <div class="m_application_w swiper-slide">
+                    <img src="/images/img_recommend04.jpg" alt="추천 이미지 04">
+                    <div class="txt_cont">
+                        <p>비상장&#183;중소&#183;벤처기업 지분을 3% 이상 매각하고 싶은 주주</p>
+                    </div>
+                </div>
+            </div>
+            <!-- e:swiper-wrapper -->
+            <ul class="navigation">
+                <li class="app-button prev">
+                    <img src="/images/ico_news_prev.svg" alt="이전">
+                </li>
+                <li class="app-button next">
+                    <img src="/images/ico_news_next.svg" alt="다음">
+                </li>
+            </ul>
+        </section>
+        <!-- e:mobile_application section -->
+
+        <!-- s:contact_us section -->
+        <section class="contact_us">
+            <div class="d-flex con_w">
+                <div class="left">
+                    <h1>지분 매입 상담 신청</h1>
+                    <p>비상장&#183;중소&#183;벤처기업의 지분 매각을 원하신다면<br>
+                        아래 양식을 통해 상담을 요청해주세요.</p>
+                    <button class="btn_contact">문의하기</button>
+                </div>
+                <div class="right">
+                    <img src="/images/img_contact_us.jpg">
+                </div>
+            </div>
+        </section>
+        <!-- e:contact_us section -->
+
+        <footer class="section fp-auto-height">
+            <div class="inner">
+                <img src="/images/logo_w.svg" alt="로고">
+                <address>
+                    <dl>
+                        <dt>대표</dt>
+                        <dd>이시진</dd>
+
+                        <dt>사업자등록번호</dt>
+                        <dd>658-11-02889</dd>
+
+                        <dt>전화</dt>
+                        <dd>02-585-9333</dd>
+                    </dl>
+                    <dl>
+                        <dt>주소</dt>
+                        <dd>서울특별시 서초구 사임당로8길 13, 4층 402-J982호(서초동)
+                        </dd>
+                    </dl>
+                </address>
+            </div>
+        </footer>
+        <!-- e:fullpage -->
+
+        <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+        <!-- swiper slide -->
+        <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+        <script src='https://unpkg.com/gsap@3/dist/gsap.min.js'></script>
+        <script src='https://unpkg.com/gsap@3/dist/ScrollTrigger.min.js'></script>
+        <script src="/js/main.js"></script>
+        <script src="/js/layout.js"></script>
+
+        <script>
+            // 메인비디오 천천히 나타내기
+            const mainVideo = $(".bg-video");
+            $(window).on("load", function () {
+                mainVideo.addClass("visible");
+            });
+
+            function openFormPopup() {
+                const url = "https://docs.google.com/forms/d/e/1FAIpQLScbNu9psLIgwm8Hwib1Prptkbtsr007vqIeK2" +
+                        "dYPFL5SS7WCA/viewform?usp=dialog";
+                const popupOptions = "width=600,height=800,top=100,left=200,resizable=yes,scrollbars=yes";
+
+                window.open(url, "googleFormPopup", popupOptions);
+            }
+        </script>
+    </body>
+
+</html>

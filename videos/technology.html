@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta property="og:title" content="ICVR">
+        <meta property="og:site_name" content="ICVR">
+        <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
+
+        <title>기업가치실현연구소</title>
+
+        <link rel="stylesheet" href="/css/base.css">
+        <link rel="stylesheet" href="/css/reset.css">
+        <link rel="stylesheet" href="/css/typography.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link
+            rel="preconnect"
+            href="https://fonts.gstatic.com"
+            crossorigin="crossorigin">
+        <link
+            href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap"
+            rel="stylesheet">
+        <!-- swiper slide -->
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css">
+
+        <link rel="stylesheet" href="/css/style.css">
+    </head>
+    <body>
+        <!-- s:modal contact us -->
+        <div class="modal_popup" id="modalContact">
+            <div class="modal_wrap contact">
+                <!-- s:modal_scroll -->
+                <div class="modal_scroll scroll s_hover">
+                    <img class="modal_close close_icon" src="/images/ico_modal_close.svg" alt="닫기">
+                    <div class="first step on">
+                        <h1 class="mb-3">Contact Us</h1>
+                        <p>연락처를 남겨주시면 빠른 시일안에 연락드리겠습니다.</p>
+                        <div class="d-flex">
+                            <!-- s:input_wrap -->
+                            <div class="input_wrap">
+                                <dl>
+                                    <dt>이름</dt>
+                                    <dd>
+                                        <input type="text" placeholder="이름을 입력해주세요.">
+                                    </dd>
+                                </dl>
+                                <dl>
+                                    <dt>이메일</dt>
+                                    <dd>
+                                        <input type="text" placeholder="이메일을 입력해주세요.">
+                                    </dd>
+                                </dl>
+                                <dl>
+                                    <dt>연락처</dt>
+                                    <dd>
+                                        <input type="text" placeholder="연락처를 입력해주세요.">
+                                    </dd>
+                                </dl>
+                                <dl>
+                                    <dt>소속</dt>
+                                    <dd>
+                                        <input type="text" placeholder="소속을 입력해주세요.">
+                                    </dd>
+                                </dl>
+                                <dl>
+                                    <dt>직책</dt>
+                                    <dd>
+                                        <input type="text" placeholder="직책을 입력해주세요.">
+                                    </dd>
+                                </dl>
+                            </div>
+                            <!-- e:input_wrap -->
+                            <!-- s:input_wrap -->
+                            <div class="input_wrap right">
+                                <dl>
+                                    <dt>제안 구분</dt>
+                                    <dd>
+                                        <div class="dropdown">
+                                            <button class="selected">
+                                                전체
+                                                <img src="/images/ico_dropdown-chevron.svg" alt="드롭다운 화살표">
+                                            </button>
+                                            <div class="dropdown_list scroll s_hover">
+                                                <button>전체</button>
+                                                <button>카테고리1</button>
+                                                <button>카테고리2</button>
+                                                <button>카테고리3</button>
+                                            </div>
+                                        </div>
+                                    </dd>
+                                </dl>
+                                <dl>
+                                    <dt>제안 내용</dt>
+                                    <dd>
+                                        <textarea placeholder="제안 내용을 입력해주세요."></textarea>
+                                    </dd>
+                                </dl>
+                            </div>
+                            <!-- e:input_wrap -->
+                        </div>
+                        <div class="checkbox_wrap">
+                            <label class="checkbox_label">
+                                <input type="checkbox">
+                                <span class="checkbox_icon"></span>
+                                <span class="checkbox_txt">개인정보수집 및 이용에 동의합니다.</span>
+                            </label>
+                        </div>
+                        <div class="terms_box scroll s_hover">
+                            <p>제 1조 (목적)
+                                <br>
+                                <br>
+                                본 약관은 [회사명] (이하 "회사")가 제공하는 문의하기 서비스(이하 "서비스")를 이용함에 있어 회사와 이용자의 권리, 의무 및 책임사항을
+                                규정함을 목적으로 합니다.
+                                <br>
+                                <br>
+                                제 2조 (개인정보의 수집 및 이용)
+                                <br>
+                                <br>
+                                사용자가 입력한 개인정보는 문의 처리 및 응답을 목적으로 사용됩니다.<br>
+                                회사는 사용자의 동의 없이 수집한 정보를 제3자에게 제공하지 않습니다.<br>
+                                수집된 개인정보는 문의 처리 완료 후 관련 법령에 따라 일정 기간 보관되며, 이후 안전하게 삭제됩니다.
+                                <br>
+                                <br>
+                                제 3조 (문의 내용의 제한)
+                                <br>
+                                <br>
+                                이용자는 다음과 같은 내용을 포함하는 문의를 작성해서는 안 됩니다.
+                                <br>
+                                타인의 명예를 훼손하거나 불쾌감을 주는 내용<br>
+                                허위 정보나 부정확한 내용을 포함한 문의<br>
+                                광고, 홍보, 스팸 등 서비스와 무관한 내용<br>
+                                기타 법령에 위반되는 내용
+                                <br>
+                                <br>
+                                제 4조 (회사의 의무)
+                                <br>
+                                <br>
+                                회사는 사용자의 문의에 대해 신속하고 성실하게 응답할 의무가 있습니다.<br>
+                                기술적 문제 또는 외부 요인으로 인해 문의 처리에 지연이 발생할 경우, 이를 사전에 공지하거나 지연 사유를 안내합니다.
+                                <br>
+                                <br>
+                                제 5조 (이용자의 의무)
+                                <br>
+                                <br>
+                                이용자는 정확하고 진실된 정보를 제공해야 합니다.<br>
+                                문의와 관련된 추가 정보가 필요한 경우, 회사의 요청에 성실히 응해야 합니다.<br>
+                                본 약관을 준수하지 않아 발생한 문제에 대한 책임은 이용자 본인에게 있습니다.
+                                <br>
+                                <br>
+                                제 6조 (서비스 중단 및 제한)
+                                <br>
+                                <br>
+                                회사는 다음과 같은 경우 서비스 제공을 일시 중단하거나 제한할 수 있습니다.
+                                <br>
+                                시스템 점검, 유지보수, 교체 등의 불가피한 사유 발생 시<br>
+                                천재지변, 정전, 통신 장애 등 불가항력적인 사유 발생 시
+                            </p>
+                        </div>
+                        <button class="submit">문의하기</button>
+                    </div>
+                    <div class="second step">
+                        <h1 class="mb-3">Contact Us</h1>
+                        <div class="wrap">
+                            <img src="/images/contact_complete.svg" alt="완료">
+                            <p>
+                                문의가 완료되었습니다.<br>
+                                빠른 시일내로 확인하여 연락드리겠습니다
+                            </p>
+                        </div>
+                        <button class="close modal_close">닫기</button>
+                    </div>
+                </div>
+                <!-- e:modal_scroll -->
+            </div>
+        </div>
+        <!-- e:modal contact us -->
+        <div class="quick_wrap visible">
+            <div class="quick">
+                <a href="javascript:void(0)" class="goto_top">
+                    <img src="/images/arrow_top.svg" alt="맨 위로">
+                </a>
+            </div>
+        </div>
+        <div class="quick_wrap">
+            <div class="quick">
+                <a href="#" class="goto_counsel">
+                    <img src="/images/ico_goto_counsel.svg" alt="상담하기 바로가기">
+                </a>
+                <a href="#" class="goto_top">
+                    <img src="/images/arrow_top.svg" alt="맨 위로">
+                </a>
+            </div>
+        </div>
+        <header class="sub">
+            <h1 class="ir_su">기업가치실현연구소</h1>
+            <div class="nav_bg"></div>
+            <div class="nav_bg_mobile">
+                <img class="close" src="/images/mobile_close.svg" alt="모바일 메뉴 닫기">
+                <ul class="d-flex flex-direction-column">
+                    <li class="about">
+                        <a href="about.html">About</a>
+                    </li>
+                    <li class="Service Detail">
+                        <a href="technology.html">Service Detail</a>
+                    </li>
+                    <li class="Contact">
+                        <a onclick="openFormPopup()">Contact</a>
+                    </li>
+                </ul>
+                <div class="info">
+                    <h2>기업가치실현연구소</h2>
+                    <dl>
+                        <dt>대표</dt>
+                        <dd>이시진</dd>
+                        <dt>사업자등록번호</dt>
+                        <dd>658-11-02889</dd>
+                        <dt>전화</dt>
+                        <dd>02-585-9333</dd>
+                    </dl>
+                    <dl>
+                        <dt>주소</dt>
+                        <dd>서울특별시 서초구 사임당로8길 13, 4층 402-J982호(서초동)</dd>
+                    </dl>
+                </div>
+            </div>
+            <nav class="d-flex">
+                <a href="index.html">
+                    <img class="header_logo" src="/images/logo_w.svg" alt="로고">
+                    <img class="header_logo_m" src="/images/logo_w_mobile.svg" alt="모바일 로고">
+                </a>
+                <ul class="menu d-flex align-items-center">
+                    <li>
+                        <a class="nav_1dep" href="about.html">About</a>
+                    </li>
+                    <li>
+                        <a class="nav_1dep" href="technology.html">Service Detail</a>
+                    </li>
+                    <li>
+                        <a class="nav_1dep" onclick="openFormPopup()">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="mobile_menu">
+                <img class="mobile_burger" src="/images/mobile_burger.svg" alt="모바일 버거">
+            </div>
+        </header>
+        <div class="visual">
+            <div class="dim"></div>
+            <div class="visual_img technology"></div>
+        </div>
+        <div class="contents">
+            <!-- s: visual_contents -->
+            <div class="visual_contents">
+                <div class="inner">
+                    <div class="txt_wrap">
+                        <h1>Service Detail</h1>
+                    </div>
+                </div>
+            </div>
+            <!-- e: visual_contents -->
+            <!-- s: inner -->
+            <div class="inner technology">
+                <div class="tit_wrap">
+                    <h1>전문기관의<br>
+                        비상장 주식<br>
+                        매입 서비스</h1>
+                    <span class="mb-4">투명한 절차, 법률 자문 기반의 안전한 지분 거래</span>
+                </div>
+                <div class="contents_wrap">
+                    <div class="d-flex justify-content-between card_wrap">
+                        <div class="technology_wrap mr-5 fade-left">
+                            <span>서비스 개요</span>
+                            <div class="txt_wrap">
+                                <h1>비상장 지분, 3% 이상 매입</h1>
+                                <p>비상장&#183;중소&#183;벤처기업의 지분을3% 이상 직접 매입하는 전문 서비스입니다.투자자 관점에서 안정적이고 투명한 절차로 거래를
+                                    진행합니다.</p>
+                            </div>
+                            <img class="img" src="/images/icon_sv01.svg" alt="서비스 아이콘">
+                        </div>
+                        <div class="technology_wrap ai_crush fade-left">
+                            <span>대상 주주 유형</span>
+                            <div class="txt_wrap d-flex justify-content-between align-items-end">
+                                <div class="txt_wrap">
+                                    <h1>비상장 지분 매각이 필요한 모든 경우 지원</h1>
+                                    <p>- 비상장회사 주식을 매도하고 싶은 주주<br>
+                                        - 공동창업 관계 종료 등으로 지분을 정리해야 하는 주주<br>
+                                        - 명의신탁 주식을 안전하게 정리하려는 보유자<br>
+                                        개인의 상황에 맞춘 맞춤형 매입 절차를 제공합니다.</p>
+                                </div>
+                                <img class="img" src="/images/icon_sv01.svg" alt="서비스 아이콘">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex card_wrap">
+                        <div class="technology_wrap mr-5 fade-left">
+                            <span>매입 기준</span>
+                            <div class="txt_wrap d-flex justify-content-between align-items-end">
+                                <div class="txt_wrap">
+                                    <h1>3% 이상 보유 시 매입 가능</h1>
+                                    <p>- 최소 매입 지분: 3% 이상<br>
+                                        - 대상 기업: 비상장회사 &#183; 중소기업 &#183; 벤처기업<br>
+                                        - 매입 방식: 당사가 직접 인수(Direct Acquisition)명확한 기준으로 고객의 지분 거래를 돕습니다.</p>
+                                </div>
+                                <img class="img" src="/images/icon_sv01.svg" alt="서비스 아이콘">
+                            </div>
+                        </div>
+                        <div class="technology_wrap zamkorea fade-left">
+                            <span>매입 절차</span>
+                            <div class=" txt_wrap d-flex justify-content-between align-items-end">
+                                <div class="txt_wrap">
+                                    <h1>투명하고 전문적인 5단계 절차</h1>
+                                    <p>1. 상담 신청<br>
+                                        2. 기업 및 지분 검토<br>
+                                        3. 매입 조건 제안(3% 이상)<br>
+                                        4. 변호사 자문 기반 계약 검토<br>
+                                        5. 계약 체결 및 정산<br>
+                                        모든 과정은 법률 자문을 중심으로 안전하게 진행됩니다.</p>
+                                </div>
+                                <img class="img" src="/images/icon_sv01.svg" alt="서비스 아이콘">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer class="section fp-auto-height">
+            <div class="inner">
+                <img src="/images/logo_w.svg" alt="로고">
+                <address>
+                    <dl>
+                        <dt>대표</dt>
+                        <dd>이시진</dd>
+
+                        <dt>사업자등록번호</dt>
+                        <dd>658-11-02889</dd>
+
+                        <dt>전화</dt>
+                        <dd>02-585-9333</dd>
+                    </dl>
+                    <dl>
+                        <dt>주소</dt>
+                        <dd>서울특별시 서초구 사임당로8길 13, 4층 402-J982호(서초동)
+                        </dd>
+                    </dl>
+                </address>
+            </div>
+        </footer>
+
+        <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+
+        <script src="/js/layout.js"></script>
+        <script src="/js/sub.js"></script>
+
+        <script>
+            // -- 순차적으로 visible 클래스 추가
+            $(document).ready(function () {
+                function addVisibleClassSequentially() {
+                    $(".fade-left").each(function (index) {
+                        const $this = $(this);
+                        const elementTop = $this
+                            .offset()
+                            .top;
+                        const viewportBottom = $(window).scrollTop() + $(window).height();
+
+                        if (elementTop < viewportBottom) {
+                            // 딜레이를 주어 순차적으로 visible 클래스를 추가
+                            setTimeout(function () {
+                                $this.addClass("visible");
+                            }, index * 300); // 요소 순서에 따라 300ms 간격으로 추가
+                        }
+                    });
+                }
+
+                // 스크롤 및 초기 로드 시 호출
+                $(window).on("scroll", function () {
+                    addVisibleClassSequentially();
+                });
+
+                // 초기 로드 시 확인
+                addVisibleClassSequentially();
+            });
+
+            function openFormPopup() {
+                const url = "https://docs.google.com/forms/d/e/1FAIpQLScbNu9psLIgwm8Hwib1Prptkbtsr007vqIeK2" +
+                        "dYPFL5SS7WCA/viewform?usp=dialog";
+                const popupOptions = "width=600,height=800,top=100,left=200,resizable=yes,scrollbars=yes";
+
+                window.open(url, "googleFormPopup", popupOptions);
+            }
+        </script>
+    </body>
+
+</html>

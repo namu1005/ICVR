@@ -1,0 +1,84 @@
+@charset "utf-8";
+
+/* pretendard font */
+@font-face {
+    font-family: 'Pretendard';
+    font-weight: 900;
+    font-display: swap;
+    src: url(http://test.s1.unipware.com/shared/fonts/pretendard/Pretendard-Black.woff2) format('woff2'), url(http://test.s1.unipware.com/shared/fonts/pretendard/Pretendard-Black.woff) format('woff');
+}
+@font-face {
+    font-family: 'Pretendard';
+    font-weight: 800;
+    font-display: swap;
+    src: url(http://test.s1.unipware.com/shared/fonts/pretendard/Pretendard-ExtraBold.woff2) format('woff2'), url(http://test.s1.unipware.com/shared/fonts/pretendard/Pretendard-ExtraBold.woff) format('woff');
+}
+@font-face {
+    font-family: 'Pretendard';
+    font-weight: 700;
+    font-display: swap;
+    src: url(http://test.s1.unipware.com/shared/fonts/pretendard/Pretendard-Bold.woff2) format('woff2'), url(http://test.s1.unipware.com/shared/fonts/pretendard/Pretendard-Bold.woff) format('woff');
+} 
+@font-face {
+    font-family: 'Pretendard';
+    font-weight: 600;
+    font-display: swap;
+    src: url(http://test.s1.unipware.com/shared/fonts/pretendard/Pretendard-SemiBold.woff2) format('woff2'), url(http://test.s1.unipware.com/shared/fonts/pretendard/Pretendard-SemiBold.woff) format('woff');
+}
+@font-face {
+    font-family: 'Pretendard';
+    font-weight: 500;
+    font-display: swap;
+    src:url(http://test.s1.unipware.com/shared/fonts/pretendard/Pretendard-Medium.woff2) format('woff2'), url(http://test.s1.unipware.com/shared/fonts/pretendard/Pretendard-Medium.woff) format('woff');
+}
+@font-face {
+    font-family: 'Pretendard';
+    font-weight: 400;
+    font-display: swap;
+    src: url(http://test.s1.unipware.com/shared/fonts/pretendard/Pretendard-Regular.woff2) format('woff2'), url(http://test.s1.unipware.com/shared/fonts/pretendard/Pretendard-Regular.woff) format('woff');
+}
+@font-face {
+    font-family: 'Pretendard';
+    font-weight: 300;
+    font-display: swap;
+    src: url(http://test.s1.unipware.com/shared/fonts/pretendard/Pretendard-Light.woff2) format('woff2'), url(http://test.s1.unipware.com/shared/fonts/pretendard/Pretendard-Light.woff) format('woff');
+}
+@font-face {
+    font-family: 'Pretendard';
+    font-weight: 200;
+    font-display: swap;
+    src: url(http://test.s1.unipware.com/shared/fonts/pretendard/Pretendard-ExtraLight.woff2) format('woff2'), url(http://test.s1.unipware.com/shared/fonts/pretendard/Pretendard-ExtraLight.woff) format('woff');
+}
+@font-face {
+    font-family: 'Pretendard';
+    font-weight: 100;
+    font-display: swap;
+    src: url(http://test.s1.unipware.com/shared/fonts/pretendard/Pretendard-Thin.woff2) format('woff2'), url(http://test.s1.unipware.com/shared/fonts/pretendard/Pretendard-Thin.woff) format('woff');
+}
+
+/* font size */
+.ft_60 {font-size: 60px;}
+.ft_30 {font-size: 30px;}
+.ft_29 {font-size: 29px;}
+.ft_28 {font-size: 28px;}
+.ft_27 {font-size: 27px;}
+.ft_26 {font-size: 26px;}
+.ft_25 {font-size: 25px;}
+.ft_24 {font-size: 24px;}
+.ft_23 {font-size: 23px;}
+.ft_22 {font-size: 22px;}
+.ft_21 {font-size: 21px;}
+.ft_20 {font-size: 20px;}
+.ft_19 {font-size: 19px;}
+.ft_18 {font-size: 18px;}
+.ft_17 {font-size: 17px;}
+.ft_16 {font-size: 16px;}
+.ft_15 {font-size: 15px;}
+.ft_14 {font-size: 14px;}
+.ft_13 {font-size: 13px;}
+.ft_12 {font-size: 12px;}
+.ft_11 {font-size: 11px;}
+.ft_10 {font-size: 10px;}
+
+.txt_color_main {color: var(--main-color);}
+.txt_color_white {color: var(--white-color);}
